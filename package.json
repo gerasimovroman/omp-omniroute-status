@@ -1,0 +1,33 @@
+{
+  "name": "omp-omni-status",
+  "version": "1.0.0",
+  "description": "OMP (Oh My Pi) plugin and extension for OmniRoute quota and token usage monitoring",
+  "type": "module",
+  "main": "src/index.ts",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "files": ["src", "bin", "README.md"],
+  "bin": {
+    "omni-status": "./bin/omni-status.ts"
+  },
+  "omp": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node --test",
+    "status": "node bin/omni-status.ts"
+  },
+  "keywords": [
+    "omp",
+    "oh-my-pi",
+    "extension",
+    "plugin",
+    "omniroute",
+    "quotas",
+    "usage"
+  ],
+  "license": "MIT"
+}

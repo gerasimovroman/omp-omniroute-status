@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*token*.json
+config.local.*
+.omni-status.json
+.omp/
+*.log
+.DS_Store
+coverage/
+dist/
