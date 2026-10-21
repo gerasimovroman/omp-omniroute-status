@@ -1,5 +1,8 @@
 # OmniRoute Status for Oh My Pi
 
+<img width="1691" height="378" alt="image" src="https://github.com/user-attachments/assets/52e6a01f-4c41-420b-a63a-344ccc411edc" />
+
+
 Компактная панель квот OmniRoute для **OMP (Oh My Pi)**: остатки по аккаунтам и моделям, время сброса и обновление upstream-квот без сообщений в истории чата.
 
 ## Установка
